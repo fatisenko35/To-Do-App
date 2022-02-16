@@ -7,6 +7,7 @@ buttonAdd.addEventListener("click", ()=>{
     const todoAdd = document.createElement("button");
     todoAdd.innerHTML = inputAdd.value;
     document.querySelector(".container").appendChild(todoAdd);
+    
 
     todoAdd.addEventListener("click",()=>{
         todoAdd.remove();
